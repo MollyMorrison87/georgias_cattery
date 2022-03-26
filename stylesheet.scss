@@ -1,0 +1,148 @@
+$primary_1: #388087;
+$primary_2: #6fb3b8;
+$primary_3: #badfe7;
+$primary_4: #c2edce;
+$primary_5: #f6f6f2;
+
+/* Global styles*/
+
+/* colour variables*/
+
+
+body{
+    margin: 0 400px 0 400px;
+    font-size: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 0 0;
+    background-color: $primary_1;
+}
+
+h3{
+  text-align: center;
+  width: 1200px;
+  margin: 20px;
+  border-bottom: 2px solid #000;  
+}
+
+p{
+  margin: 20px;
+}
+
+.contact{
+color: black;
+}
+
+.smlogo {
+    width: 30px; 
+    height: 30px;
+}
+.secondheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homebtn {
+    width: 300px;
+    height:150px;
+    margin: 20px 0 20px 0;
+}
+
+a {
+    margin: 0 20px 0 20px;
+}
+/* Price columns*/
+h4 {
+    text-align: ;
+
+}
+.pricerow{
+    width: 100%;
+
+}
+
+.pricerow:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.pricecolumn{
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+/* Accordion faq and services */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+
+  /* Gallery*/ 
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .mySlides {
+    margin: 0 0 0 350px;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+
+  
+  .row{
+    margin: 0 0 0 250px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 10.66%;
+
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
